@@ -79,7 +79,7 @@
 	};
 
 	configurations {
-		default = "config@0";
+		default = "config@1";
 		config@0 {
 			description = "Linux with fpga RevA";
 			fdt = "fdt@1";
