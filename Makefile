@@ -10,7 +10,7 @@ NCORES = $(shell grep -c ^processor /proc/cpuinfo)
 VIVADO_SETTINGS ?= /tools/Xilinx/Vivado/$(VIVADO_VERSION)/settings64.sh
 VSUBDIRS = hdl buildroot linux u-boot-xlnx
 
-VERSION=$(shell git describe --abbrev=4 --dirty --always --tags)
+VERSION=0.38
 LATEST_TAG=$(shell git describe --abbrev=0 --tags)
 UBOOT_VERSION=$(shell echo -n "PlutoSDR " && cd u-boot-xlnx && git describe --abbrev=0 --dirty --always --tags)
 HAVE_VIVADO= $(shell bash -c "source $(VIVADO_SETTINGS) > /dev/null 2>&1 && vivado -version > /dev/null 2>&1 && echo 1 || echo 0")
