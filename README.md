@@ -2,7 +2,7 @@
 
 This repository is originated from [plutosdr-fw](https://github.com/analogdevicesinc/plutosdr-fw), version 0.38.
 
-The original README from ADI is [here](https://github.com/DCZYewen/plutonet-fw/README_adi.md).
+The original README from ADI is [here](hhttps://github.com/DCZYewen/plutonet-fw/blob/master/README_adi.md).
 
 This repository contains firmware of [Pluto-Net](https://github.com/DCZYewen/plutonet-hw) hardware, the software and hardware contains ABSOLUTLY NO warrenty. There is no guarantee that the hardware and firmware would perform as normal.
 
@@ -47,6 +47,8 @@ build-essential
 
 ### Notes
 The Ubuntu 20.04 official repository has deprecated libssl-dev, use dpkg install deb package `dependency/libssl1.0.2_1.0.2u-1~deb9u7_amd64.deb` to meet the requirements by this project.
+
+Only tested under ubuntu 20.04 and Vivado 2022.2, gcc 9.4.0.
 
 ## Build Instructions
 
